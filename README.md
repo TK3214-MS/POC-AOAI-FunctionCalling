@@ -44,7 +44,7 @@ Speech Service リソース (無料または有料レベル) を Azure アカウ
    - 新しいリソースに一意の名前を指定します。 この名前は、同じサービスに関連付けられた複数のサブスクリプションを区別するのに役立ちます。
    - 新しいリソースが関連付けられている Azure サブスクリプションを選択して、料金の課金方法を決定します。 Azure portal で [Azure サブスクリプションを作成する方法](../../cost-management-billing/manage/create-subscription.md#create-a-subscription-in-the-azure-portal)の概要はこちらにあります。
    - リソースが使用される[リージョン](regions.md)を選択します。 Azure は、世界中のさまざまな地域で一般的に利用できるグローバル クラウド プラットフォームです。 パフォーマンスを最適にするには、ユーザーまたはアプリケーションが実行されている場所に最も近いリージョンを選択します。 音声サービスの可用性は、リージョンによって異なります。 サポートされているリージョンにリソースが作成されていることを確認してください。 [音声サービスがサポートされているリージョン](./regions.md#speech-to-text-text-to-speech-and-translation)に関するページを参照してください。
-   - 無料 (F0) または有料 (S0) の価格レベルのどちらかを選択します。 各レベルの価格と使用量クォータの完全な情報については、 **[価格の詳細を表示]** を選択するか、![音声サービスの価格](https://azure.microsoft.com/pricing/details/cognitive-services/speech-services/)に関するページを参照してください。 リソースの制限については、「[Azure Cognitive Services の制限](../../azure-resource-manager/management/azure-subscription-service-limits.md#azure-cognitive-services-limits)」を参照してください。
+   - 無料 (F0) または有料 (S0) の価格レベルのどちらかを選択します。 各レベルの価格と使用量クォータの完全な情報については、 **[価格の詳細を表示]** を選択するか、[音声サービスの価格](https://azure.microsoft.com/pricing/details/cognitive-services/speech-services/)に関するページを参照してください。 リソースの制限については、「[Azure Cognitive Services の制限](../../azure-resource-manager/management/azure-subscription-service-limits.md#azure-cognitive-services-limits)」を参照してください。
    - この Speech サブスクリプションの新しいリソース グループを作成するか、既存のリソース グループにサブスクリプションを割り当てます。 リソース グループは、さまざまな Azure サブスクリプションを整理しておくのに役立ちます。
    - **［作成］** を選択します これでデプロイの概要に移動し、デプロイの進行状況を示すメッセージが表示されます。  
 
@@ -99,7 +99,7 @@ Speech Service リソース (無料または有料レベル) を Azure アカウ
 
     C:\home\site\wwwroot\
 
-1. "ConvertAudioFormatUsingFFmpeg" ディレクトリを新規作成し、![こちら](https://ffmpeg.org/download.html#build-windows)よりダウンロードした Windows 向け FFmpeg 実行ファイルをアップロードします。
+1. "ConvertAudioFormatUsingFFmpeg" ディレクトリを新規作成し、[こちら](https://ffmpeg.org/download.html#build-windows)よりダウンロードした Windows 向け FFmpeg 実行ファイルをアップロードします。
 
     - ffmpeg.exe
     - ffplay.exe
