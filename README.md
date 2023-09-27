@@ -17,9 +17,9 @@
 
 ## 事前準備
 ### Azure Open AI リソースの作成
-1. ![手順ページ](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/create-resource?pivots=web-portal)に則り、Azure Open AI Service リソースを作成します。
+1. [手順ページ](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/create-resource?pivots=web-portal)に則り、Azure Open AI Service リソースを作成します。
 
-1. ![手順ページ](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/create-resource?pivots=web-portal#deploy-a-model)に則り、モデルを作成します。
+1. [手順ページ](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/create-resource?pivots=web-portal#deploy-a-model)に則り、モデルを作成します。
 
     ※本サンプルでは gpt-35-turbo-16k を利用しました。
 
@@ -29,7 +29,7 @@
 ### Azure AI Speech Service リソースの作成
 Speech Service リソース (無料または有料レベル) を Azure アカウントに追加するには:
 
-1. お使いの Microsoft アカウントを使用して ![Azure portal](https://portal.azure.com/) にサインインします。
+1. お使いの Microsoft アカウントを使用して [Azure portal](https://portal.azure.com/) にサインインします。
 
 1. ポータルの左上にある **[Create a resource]\(リソースの作成\)** を選択します。 **[リソースの作成]** が表示されない場合は、画面左上の折りたたまれたメニューを選択することで、いつでも見つけることができます。
 
@@ -44,7 +44,7 @@ Speech Service リソース (無料または有料レベル) を Azure アカウ
    - 新しいリソースに一意の名前を指定します。 この名前は、同じサービスに関連付けられた複数のサブスクリプションを区別するのに役立ちます。
    - 新しいリソースが関連付けられている Azure サブスクリプションを選択して、料金の課金方法を決定します。 Azure portal で [Azure サブスクリプションを作成する方法](../../cost-management-billing/manage/create-subscription.md#create-a-subscription-in-the-azure-portal)の概要はこちらにあります。
    - リソースが使用される[リージョン](regions.md)を選択します。 Azure は、世界中のさまざまな地域で一般的に利用できるグローバル クラウド プラットフォームです。 パフォーマンスを最適にするには、ユーザーまたはアプリケーションが実行されている場所に最も近いリージョンを選択します。 音声サービスの可用性は、リージョンによって異なります。 サポートされているリージョンにリソースが作成されていることを確認してください。 [音声サービスがサポートされているリージョン](./regions.md#speech-to-text-text-to-speech-and-translation)に関するページを参照してください。
-   - 無料 (F0) または有料 (S0) の価格レベルのどちらかを選択します。 各レベルの価格と使用量クォータの完全な情報については、 **[価格の詳細を表示]** を選択するか、![音声サービスの価格](https://azure.microsoft.com/pricing/details/cognitive-services/speech-services/)に関するページを参照してください。 リソースの制限については、「![Azure Cognitive Services の制限](../../azure-resource-manager/management/azure-subscription-service-limits.md#azure-cognitive-services-limits)」を参照してください。
+   - 無料 (F0) または有料 (S0) の価格レベルのどちらかを選択します。 各レベルの価格と使用量クォータの完全な情報については、 **[価格の詳細を表示]** を選択するか、![音声サービスの価格](https://azure.microsoft.com/pricing/details/cognitive-services/speech-services/)に関するページを参照してください。 リソースの制限については、「[Azure Cognitive Services の制限](../../azure-resource-manager/management/azure-subscription-service-limits.md#azure-cognitive-services-limits)」を参照してください。
    - この Speech サブスクリプションの新しいリソース グループを作成するか、既存のリソース グループにサブスクリプションを割り当てます。 リソース グループは、さまざまな Azure サブスクリプションを整理しておくのに役立ちます。
    - **［作成］** を選択します これでデプロイの概要に移動し、デプロイの進行状況を示すメッセージが表示されます。  
 
@@ -54,7 +54,7 @@ Speech Service リソース (無料または有料レベル) を Azure アカウ
 
 完成したデプロイのキーと場所/リージョンを見つけるには、次の手順に従います。
 
-1. お使いの Microsoft アカウントを使用して ![Azure portal](https://portal.azure.com/) にサインインします。
+1. お使いの Microsoft アカウントを使用して [Azure portal](https://portal.azure.com/) にサインインします。
 
 2. **[すべてのリソース]** を選択し、Cognitive Services リソースの名前を選択します。
 
@@ -68,7 +68,7 @@ Speech Service リソース (無料または有料レベル) を Azure アカウ
 > これらのサブスクリプション キーは、Cognitive Service API にアクセスするために使用されます。 キーを共有しないでください。 Azure Key Vault を使用するなどして、安全に保管してください。 これらのキーを定期的に再生成することもお勧めします。 API 呼び出しを行うために必要なキーは 1 つだけです。 最初のキーを再生成するときに、2 番目のキーを使用してサービスに継続的にアクセスすることができます。
 
 ### Function App リソースの作成
-1. ![手順ページ](https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-create-function-app-portal#create-a-function-app)に則り、Function App リソースを作成します。
+1. [手順ページ](https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-create-function-app-portal#create-a-function-app)に則り、Function App リソースを作成します。
 
 1. 本サンプルでは以下設定でリソースを作成しました。
 
