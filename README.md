@@ -938,6 +938,8 @@ Speech Service リソース (無料または有料レベル) を Azure アカウ
     | 文字列 | text | outputs('Create_Audio_for_chatGPT') |
 
 ## 動作確認
+1. [こちら](https://learn.microsoft.com/ja-jp/power-apps/maker/canvas-apps/using-logic-flows#add-a-flow-to-an-app)を参考に Power Apps 上で作成した Power Automate フローを関連付けます。
+
 1. Power Apps から質問を投げかけます。
 
 1. 検索対象が社内ドキュメントであれば女性の声、その他であれば男性の声で応答があれば動作確認成功です。
