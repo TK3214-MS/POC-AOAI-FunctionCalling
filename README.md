@@ -87,7 +87,7 @@ Speech Service リソース (無料または有料レベル) を Azure アカウ
 
     ![01](https://github.com/TK3214-MS/POC-AUTH/assets/89323076/15f7c542-7430-4c0d-a2bb-302abbfe6d95)
 
-1. 作成した関数の"Code+Test"を選択し、![run.csx](/run.csx)、![function.json](/function.json)の内容を貼り付けます。
+1. 作成した関数の"Code+Test"を選択し、[run.csx](/run.csx)、[function.json](/function.json)の内容を貼り付けます。
 
 1. 変更を保存し、"Get function URL"より Power Automate より HTTP 要求を行うターゲット URL をコピーしておきます。
 
