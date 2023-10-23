@@ -1,7 +1,7 @@
 # アーキテクチャー
 今回のアーキテクチャーは以下の通りです。
 
-![00](https://github.com/TK3214-MS/POC-AUTH/assets/89323076/a76dd40d-256b-47b1-9048-19b840be6212)
+![00](https://github.com/TK3214-MS/POC-AOAI-FunctionCalling/assets/89323076/96f44b06-962a-46e6-a181-6331d2576d29)
 
 簡単な流れは以下の通りです。
 
